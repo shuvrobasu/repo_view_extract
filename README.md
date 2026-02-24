@@ -1,8 +1,6 @@
 JSON Code Repository Viewer
 A professional desktop application for browsing, analyzing, and extracting code from large JSON repositories and Python codebases.
-Show Image
-Show Image
-Show Image
+<a href="img">https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue</a>
 Features
 Core Functionality
 
@@ -257,21 +255,29 @@ The application automatically detects code types based on:
 ### Code Structure
 ```
 JSONCodeViewer (Main Class)
-├── Data Storage
-│   ├── records: List[Dict]
-│   ├── filtered_indices: List[int]
-│   └── record_cache: Dict[int, Dict]
-├── UI Components
-│   ├── Treeview (record list)
-│   ├── Code viewer with line numbers
-│   └── Metadata display
-├── Metrics System
-│   ├── T1: Name/Size (instant)
-│   ├── T2: LOC/Type/Quality (background)
-│   └── T3: Full quality breakdown (on-demand)
-└── Export System
-    ├── Safe filename generation
-    └── Bulk export with progress
+|
++-- Data Storage
+|   |
+|   +-- records: List[Dict]
+|   +-- filtered_indices: List[int]
+|   +-- record_cache: Dict[int, Dict]
+|
++-- UI Components
+|   |
+|   +-- Treeview (record list)
+|   +-- Code viewer with line numbers
+|   +-- Metadata display
+|
++-- Metrics System
+|   |
+|   +-- T1: Name/Size (instant)
+|   +-- T2: LOC/Type/Quality (background)
+|   +-- T3: Full quality breakdown (on-demand)
+|
++-- Export System
+    |
+    +-- Safe filename generation
+    +-- Bulk export with progress
 Contributing
 Contributions welcome! Areas for enhancement:
 
