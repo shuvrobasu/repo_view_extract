@@ -6,6 +6,8 @@ A professional desktop application for browsing, analyzing, and extracting code 
 ![Python](https://img.shields.io/badge/python-3.7+-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/c4f04b38-1a86-4e8e-8251-02f5c7953a38" />
+
 ## Features
 
 ### Core Functionality
